@@ -1,0 +1,50 @@
+body {
+	background-image: url(../imgs/boom.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.error {
+    font-family: SimSun, serif; /* 使用宋体字体 */
+    font-weight: bold;
+    background-color: red;
+    color: black;
+}
+
+
+#start {
+	width: 70px;
+	height: 40px;
+	font-size: 20px;
+	background-color: rgb(231, 81, 204);
+}
+
+
+#quote {
+	text-align: center;
+	text-decoration: overline;
+	font-weight: 800;
+	color: rgb(67, 67, 220);
+}
+
+
+
+#title {
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-top: 50px;
+}
+
+#off {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+#typa1, #typa2 {
+	text-align: center;
+}
