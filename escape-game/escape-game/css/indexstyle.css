@@ -1,0 +1,159 @@
+#title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 100px;
+}
+
+#text {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(../imgs/wish.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#typetext {
+    border-right: 0.15em solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hover_area {
+    position: relative;
+    width: 100px; /* 设置区域的大小 */
+    height: 100px;
+    display: flex;
+    background-color: transparent; /* 初始背景色为透明 */
+}
+
+#area1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#area2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#area3 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#area4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hover_area img {
+    display: none; /* 初始隐藏图片 */
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.hover_area:hover img {
+    display: block;
+}
+
+/* 媒体查询 */
+
+/* 小屏幕 (手机) */
+@media (max-width: 600px) {
+    #title {
+        font-size: 24px;
+        padding: 50px;
+    }
+
+    #text {
+        font-size: 18px;
+    }
+
+    #typetext {
+        font-size: 1.5em;
+    }
+
+    .hover_area {
+        width: 80px;
+        height: 80px;
+    }
+
+    #area1, #area2, #area3, #area4 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* 中等屏幕 (平板) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    #title {
+        font-size: 36px;
+        padding: 75px;
+    }
+
+    #text {
+        font-size: 24px;
+    }
+
+    #typetext {
+        font-size: 2em;
+    }
+
+    .hover_area {
+        width: 120px;
+        height: 120px;
+    }
+
+    #area1, #area2, #area3, #area4 {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* 大屏幕 (桌面) */
+@media (min-width: 1025px) {
+    #title {
+        font-size: 48px;
+        padding: 100px;
+    }
+
+    #text {
+        font-size: 30px;
+    }
+
+    #typetext {
+        font-size: 2.5em;
+    }
+
+    .hover_area {
+        width: 200px;
+        height: 200px;
+    }
+
+    #area1, #area2, #area3, #area4 {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cocoa Puff</title>
+        <link rel="stylesheet" href="./css/failure.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="run">You better Run Run Run</h1>
+        </div>
+    </body>
+    <script>
+        const displayContainer = document.getElementById('run');
+        displayContainer.addEventListener('click', function() {
+            const pages = [
+                './typist.html',
+                './maze.html'
+            ];
+
+            function getRandomPage() {
+                const randomIndex = Math.floor(Math.random() * pages.length);
+                return pages[randomIndex];
+            }
+
+            function setRandomPage() {
+                const selectedPage = getRandomPage();
+                window.location.href = selectedPage;
+            }
+
+            setRandomPage();
+        }); 
+    </script>
+</html>

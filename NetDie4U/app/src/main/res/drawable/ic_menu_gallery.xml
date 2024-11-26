@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:width="24dp"-->
+<!--    android:height="24dp"-->
+<!--    android:viewportWidth="24"-->
+<!--    android:viewportHeight="24">-->
+<!--    <path-->
+<!--        android:fillColor="#FF000000"-->
+<!--        android:pathData="M3,18h18v-2L3,16v2zM3,13h18v-2L3,11v2zM3,6v2h18L21,6L3,6z"/>-->
+<!--</vector>-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 主路径 -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M5.5,5.938 A1,1 0 0,0 4,6.804 v10.392 a1,1 0 0,0 1.5,0.866 L8,16.62 V7.38 M8.398,5.302 L6.5,4.206 l-0.5,0.866 l0.5,-0.866 C4.5,3.05 2,4.494 2,6.804 v10.392 c0,2.31 2.5,3.753 4.5,2.598 l1.898,-1.096 c0.785,1.355 2.587,1.971 4.102,1.096 l9,-5.196 c2,-1.155 2,-4.041 0,-5.196 l-9,-5.196 c-1.515,-0.875 -3.317,-0.259 -4.102,1.096"
+        android:clipToOutline="true" />
+
+</vector>

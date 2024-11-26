@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="macaron_pink">#FF6F61</color> <!-- 温暖的粉红色 -->
+    <color name="macaron_peach">#FFABAB</color> <!-- 柔和的桃色 -->
+    <color name="macaron_yellow">#FFD700</color> <!-- 明亮的黄色 -->
+    <color name="macaron_mint">#B2E2D4</color> <!-- 清新的薄荷绿 -->
+    <color name="macaron_lavender">#E6B2D3</color> <!-- 柔和的薰衣草紫 -->
+
+    <!-- 中性色 -->
+    <color name="macaron_white">#FFFFFF</color> <!-- 纯白色 -->
+    <color name="macaron_light_gray">#F5F5F5</color> <!-- 浅灰色，用于背景 -->
+
+    <!-- 对比色 -->
+    <color name="macaron_dark_gray">#333333</color> <!-- 深灰色，用于文本或图标 -->
+
+    <!-- 其他颜色 -->
+    <color name="macaron_accent">#FF9AA2</color> <!-- 亮眼的红色，用于强调元素 -->
+</resources>

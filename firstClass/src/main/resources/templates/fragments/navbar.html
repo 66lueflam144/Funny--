@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/firstclass/outtime/home">OFF LINE</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/firstclass/api/posts/public">Public Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/firstclass/outtime/api/users/profile">My Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/firstclass/api/posts/search">Search Posts</a>
+                </li>
+
+            </ul>
+            <form th:action="@{/outtime/logout}" method="post" class="d-flex">
+                <button class="btn btn-outline-danger" type="submit">Logout</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</html>
