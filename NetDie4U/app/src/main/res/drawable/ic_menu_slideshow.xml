@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 外圈圆形 -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,3 A9,9 0 1,1 3,12 A9,9 0 0,1 12,3" />
+
+    <!-- 半透明填充的路径 -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,16 C13.48,16 14.773,15.196 15.465,14 H8.535 A4,4 0 0,0 12,16" />
+
+    <!-- 箭头路径1 -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M16,10.5 L14,9.5 L16,8.5" />
+
+    <!-- 箭头路径2 -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M8,10.5 L10,9.5 L8,8.5" />
+
+</vector>

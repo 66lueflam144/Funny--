@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Die4U</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">This CAT</string>
+    <string name="nav_header_subtitle">you had to stop the world</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">GALILEO</string>
+    <string name="menu_gallery">CRAZY</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
